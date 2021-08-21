@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+    *{
+	    padding: 0;
+	    margin: 0;
+    }
+    .wrapper{
+        background: url(http://grandecityhospital.com/wp-content/uploads/2017/04/UME_0266.jpg) no-repeat;
+        background-size: cover;
+        height: 120vh;
+    }
+    .navbar{
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        top: -18px;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+    }
+    .navbar .logo{
+        width: 140px;
+        height: auto;
+        padding: 20px 100px;
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin: 0 12px;
+        display: inline-block;
+        line-height: 80px;
+    }
+    .navbar ul li a{
+        font-size: 19px;
+        font-family: 'Cinzel', serif;
+        color: white;
+        padding: 6px 13px;
+        text-decoration: none;
+        transition: .4s;
+        border-radius: 15px;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: rgb(15, 15, 15);
+    }
+    .wrapper .center{
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        user-select: none;
+        color: rgb(206, 20, 29);
+    }
+    .center h1{
+        color: rgb(35, 13, 231);
+        font-size: 27px;
+        font-family:"sans-serif";
+        text-transform: uppercase;
+        width: 900px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    </style>
+  </head>
+  <body>
+
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="logo.png" href="home.html">
+            <ul>
+                <li><a href="home.html" class="btn btn-success" >HOME</a></li>
+                <li><a href="About.html" class="btn btn-primary" > ABOUT US</a></li>
+                <li><a href="#" class="btn btn-danger">DONATE</a></li>
+                <li><a href="contact.html" class="btn btn-info" > CONTACT</a></li>
+            </ul>
+        </nav>
+        <br><br>
+        <div class="center"><h1><br><br><br><br><br><br><br><br>
+    <br>Always have a willing hand to help someone, you might be the only one that does.</h1></div>
+    <br><br><br><br>
+        <center>
+            <img style="border:4px solid rgb(83, 226, 226);" src="donate.jpg" width="20%" height="300" margin="auto">
+        </center>
+        <br><br><br><br><br>
+        <center>
+            <div class="razorpay-embed-btn" data-url="https://rzp.io/l/ePHUyBy" data-text="DONATE NOW" data-color="#FF0000" data-size="large">
+                <script>
+                  (function(){
+                    var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                    if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                    s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                    rzp && rzp.init && rzp.init()}})();
+                </script>
+            </div>
+        </center>	
+    </div> 
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

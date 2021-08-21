@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper{
+        background: url(home.png) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        
+    }
+    .navbar{
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        top: -18px;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+    }
+    .navbar .logo{
+        width: 140px;
+        height: auto;
+        padding: 20px 100px;
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin: 0 12px;
+        display: inline-block;
+        line-height: 80px;
+    }
+    .navbar ul li a{
+        font-size: 19px;
+        font-family: 'Cinzel', serif;
+        color: white;
+        padding: 6px 13px;
+        text-decoration: none;
+        transition: .4s;
+        border-radius: 15px;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: rgb(14, 13, 13);
+        /* border-radius: 2px; */
+    }
+    .wrapper .center{
+        position: absolute;
+        left: 30%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+    .center h1{
+        color:rgb(8, 8, 8);
+        font-size: 50px;
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        width: 900px;
+        font-weight: bold;
+        text-align:center;
+    }
+    .center .buttons{
+        margin: 35px 280px;
+        font-family:"sans-serif";
+    } 
+    .buttons button{
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
+        font-weight: 600;
+        color:cornsilk;
+        background:rgb(235, 41, 73);
+        outline: none;
+        cursor: pointer;
+        /* border: 1px solid #cc0000; */
+        border-radius: 25px;
+        transition: .4s;
+    }
+    .buttons .btn2{
+        margin-left: 25px;
+    }
+    .buttons button:hover{
+        background: #9b4822;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="logo.png" href="home.html">
+            <ul>
+                <li><a href="home.html" class="btn btn-success" >HOME</a></li>
+                <li><a href="About.html" class="btn btn-primary" > ABOUT US</a></li>
+                <li><a href="donate.html" class="btn btn-danger">DONATE</a></li>
+                <li><a href="contact.html" class="btn btn-info" > CONTACT</a></li>
+                
+            </ul>
+        </nav>
+        <div class="center">
+        <h1>"Health Is Wealth" </h1>
+            <h1>!!It is health that is real wealth and not pieces of gold and silver!!</h1>
+        <div class="buttons">
+        <button onclick="window.location.href='about.html'">ABOUT US</button>
+        <button class="btn2" onclick="window.location.href='donate.html'">DONATE US</button>
+    </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+  </body>
+</html>

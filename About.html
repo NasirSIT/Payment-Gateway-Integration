@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <style>
+    *{
+	    padding: 0;
+	    margin: 0;
+    }
+    .wrapper{
+        background: url(about2.png) no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        top: -18px;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+    }
+    .navbar .logo{
+        width: 140px;
+        height: auto;
+        padding: 20px 100px;
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin: 0 12px;
+        display: inline-block;
+        line-height: 80px;
+    }
+    .navbar ul li a{
+        font-size: 19px;
+        font-family: 'Cinzel', serif;
+        color: white;
+        padding: 6px 13px;
+        text-decoration: none;
+        transition: .4s;
+        border-radius: 15px;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background:rgba(0,0,0,0.4);
+        
+    }
+    
+    .container{
+        background:rgba(0,0,0,0.4);
+        height: 65vh;
+        width: 75%;
+        position: absolute;
+        font-family: 'Noto Sans', sans-serif;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-40%);
+    }
+    .container h1
+    {
+        font-family: 'Noto Sans', sans-serif;
+        color: rgb(15, 18, 216);
+    }
+    .img{
+        height: 430px;
+        width: 400px;
+        background: url("about.jpg")no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    .text{
+        width: 60%;
+        padding: 22px 10px;
+        position: absolute;
+        top: 38%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 25px;
+        font-size: x-large;
+        font-weight: 900;
+        color:rgb(183, 241, 239);
+
+    }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+      <nav class="navbar">
+          <img class="logo" src="logo.png" alt="image it is" href="home.html">
+          <ul>
+              <li><a href="home.html" class="btn btn-success">HOME</a></li>
+              <li><a href="donate.html" class="btn btn-danger">DONATE</a></li>
+          </ul>
+      </nav>
+  </div>
+  <div class="container">
+      <div class="text">
+        
+          <u><b><h1>About Us</h1></b></u>
+          <br><br>
+          <p>Love your body bacause u only have one.<p>
+          <p>We provided financial support to those who are financially weak and unable to spend money on private hospitals.</p>
+          <p>We are here for supporting to needy ones and always be there to help them.</p>
+          <p>Support us!! Put your hands together for helping our nation.</p>
+      </div>
+      <div class="img"></div>
+  </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
